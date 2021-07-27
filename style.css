@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: darkviolet;
+    background-color: blueviolet;
+}
+img {
+    border: 20px;
+    border-color: navy;
+    border-style: double;
+    width: 800px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.line {
+    height: 6px;
+    width: 70%;
+    border-style: solid;
+    border-color: darkviolet;
+    border: 100%;
+    background-color: darkviolet;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 35px;
+}
+#books {
+    font-size: 30px;
+}
+p {
+    max-width: 1500px;
+    text-align: justify;
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+}
+.links {
+    float: left;
+    color: darkblue;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.links:hover {
+    background-image: linear-gradient(315deg, rgba(0,255,250,1) 0%, rgba(4,255,43,1) 100%);
+    color: darkslategray;
+    border-radius: 10px;
+    border: 4px;
+    border-style: solid;
+    border-color: forestgreen;
+}
+.menu {
+    list-style: none;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: 'Yomogi', cursive;
+    font-weight: 900;
+}
+#section1 {
+    background: linear-gradient(rgba(4,255,43,1) 0%, rgba(0,255,250,1) 100%);
+    padding: 30px;
+}
+#section2 {
+    background: linear-gradient(rgba(0,255,250,1) 0%, rgba(4,255,43,1) 100%);
+}
+html {
+    scroll-behavior: smooth;
+}
+#section3 {
+    background: linear-gradient(rgba(4,255,43,1) 0%, rgba(0,255,250,1) 100%);
+}
+iframe {
+    background-color: azure;
+}
+.backup {
+    text-align: center;
+    font-size: 27px;
+}
+section {
+    padding: 40px;
+}
+iframe {
+    border: 15px;
+    border-style: solid;
+    border-radius: 75px;
+}
+#section4 {
+    background: linear-gradient(rgba(0,255,250,1) 0%, rgba(4,255,43,1) 100%);
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+#section5 {
+    background: linear-gradient(rgba(4,255,43,1) 0%, rgba(0,255,250,1) 100%); 
+}
+.authors {
+    height: 400px;
+    width: auto;
+    transition: transform 0.2s;
+}
+.authors:hover {
+    transform: scale(0.5);
+}
+#section6 {
+    background-color: #03fcb6;
+}
+#section6 a {
+    color: darkviolet !important;
+}
+#section6 a {
+    color: darkblue;
+}
